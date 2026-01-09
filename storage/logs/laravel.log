@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [2026-01-09 03:08:57] local.ERROR: SQLSTATE[HY000] [1049] Unknown database 'v_store' (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: v_store, SQL: select * from `sessions` where `id` = A8nYTeEwnIGeqyb5TWZJm9OKRSnJfu31rJ8SDT2s limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 1049): SQLSTATE[HY000] [1049] Unknown database 'v_store' (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: v_store, SQL: select * from `sessions` where `id` = A8nYTeEwnIGeqyb5TWZJm9OKRSnJfu31rJ8SDT2s limit 1) at E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Database/Connection.php:831)
 [stacktrace]
 #0 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Database/Connection.php(787): Illuminate/Database/Connection->runQueryCallback('select * from `...', Array, Object(Closure))
@@ -1149,4 +1150,26 @@
 #60 E:/SQL_EXAM/SEM1_T2508M_Test/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
 #61 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('E://SQL_EXAM//SEM...')
 #62 {main}
+=======
+[2026-01-09 04:10:49] local.ERROR: filemtime(): stat failed for E:\SQL_EXAM\SEM1_T2508M_Test\.env {"exception":"[object] (ErrorException(code: 0): filemtime(): stat failed for E:\\SQL_EXAM\\SEM1_T2508M_Test\\.env at E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php:147)
+[stacktrace]
+#0 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate/Foundation/Bootstrap/HandleExceptions->handleError(2, 'filemtime(): st...', 'E://SQL_EXAM//SEM...', 147)
+#1 [internal function]: Illuminate/Foundation/Bootstrap/HandleExceptions->Illuminate/Foundation/Bootstrap/{closure}(2, 'filemtime(): st...', 'E://SQL_EXAM//SEM...', 147)
+#2 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php(147): filemtime('E://SQL_EXAM//SEM...')
+#3 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate/Foundation/Console/ServeCommand->handle()
+#4 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate/Container/BoundMethod::Illuminate/Container/{closure}()
+#5 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(96): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#6 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#7 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Container/Container.php(799): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#8 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate/Container/Container->call(Array)
+#9 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/symfony/console/Command/Command.php(341): Illuminate/Console/Command->execute(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#10 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#11 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/symfony/console/Application.php(1102): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#12 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/symfony/console/Application.php(356): Symfony/Component/Console/Application->doRunCommand(Object(Illuminate/Foundation/Console/ServeCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#13 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/symfony/console/Application.php(195): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#14 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#15 E:/SQL_EXAM/SEM1_T2508M_Test/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1235): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#16 E:/SQL_EXAM/SEM1_T2508M_Test/artisan(16): Illuminate/Foundation/Application->handleCommand(Object(Symfony/Component/Console/Input/ArgvInput))
+#17 {main}
+>>>>>>> Stashed changes
 "} 
